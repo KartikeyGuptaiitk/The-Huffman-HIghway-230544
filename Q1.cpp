@@ -5,11 +5,11 @@ void Pattern(int n) {
     for (int line = 1; line <= n; line++) {
         for (int repeat = 0; repeat < n; repeat++){
             if (repeat % 2 == 0) {
-                for (int i = 1; num <=line;num++){
+                for (int i = 1; i <=line;i++){
                     cout << i;
                 }
             } else {
-                for (int i= line; num >= 1;i--){
+                for (int i= line; i >= 1;i--){
                     cout << i;}
                     }
             if (repeat % 2 == 0 && repeat < n){
